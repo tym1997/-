@@ -18,8 +18,8 @@
 ```
   pip install pillow
 ```
-### 通过平台运行源代码
-  1.解决不能导入torch库的问题<br>
+### 通过pycharm平台运行源代码
+  1.解决pycharm不能导入torch库的问题<br>
   2.解决ModuleNotFoundError: No module named 'torch.utils.serialization'报错<br>
     因为在torch新版本中删除了load_lua，需要安装torchfile
   #### 安装torchfile
