@@ -42,10 +42,11 @@
 
 ## 2020年4月26日
 ### 修改参数：
-1.epoch次数：增加epoch次数后（200次->400次），函数图像并不收敛（图1），且训练时间较长（90h+),测试结果和200次时几乎没有区别；<br>
-2.BatchSize：增大BatchSize的值1->4，函数图像收敛（图2），训练时间较短（36h),测试结果稍微好了一些，但复杂的图片效果依然不理想；<br>
+1.epoch次数：增加epoch次数后（200次->400次），函数图像并不收敛（Image1），且训练时间较长（90h+),测试结果和200次时几乎没有区别；<br>
+2.BatchSize：增大BatchSize的值1->4，函数图像收敛（Image2），训练时间较短（36h),测试结果稍微好了一些，但复杂的图片效果依然不理想；<br>
 3.learningrate：减小learningrate的值0.0002->0.0001，函数图像收敛较慢，目前还在程序还在运行当中；<br>
-!(https://github.com/tym1997/-Graduationproject/blob/master/epoch400.png)
+![Image1](https://github.com/tym1997/-Graduationproject/blob/master/epoch400.png)
+![Image2](https://github.com/tym1997/-Graduationproject/blob/master/BatchSize4.png)
 ## 毕业论文：
 1.确定论文大纲，参考了几篇内容相似的硕博论文的格式；<br>
 2.正在写绪论；<br>
